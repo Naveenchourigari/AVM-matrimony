@@ -1,0 +1,122 @@
+<DOCTYPE html>
+
+    <head>
+        <title>MATRIMONIAL WEBSITE</title>
+        <meta charset='UTF-8'>
+        <meta name="description" content="web development">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    </head>
+    <img src="C:\Users\CHOURIGARI NAVEEN\Downloads\matri img1.png" width="350px" height="450px" style="float:right;margin-top:160px;margin-right:100px">
+    <style>
+       
+        h1{
+            font-family:sans-serif;
+            font-size:30px;
+        }
+        div.container{
+            width:400px;
+            margin:50px auto 0px auto;
+            margin-left: 200px;
+        }
+        .button{
+            border-radius:25px;
+            font-size:25px;
+            box-shadow:0px 0px 3px 5px rgb(249, 156, 187);
+            background-color: rgb(249, 156, 187);
+            border:none;
+            color:white;
+            text-align:center;
+        }
+        input[type=text], select {
+            width: 80%;
+            height:30px;
+            display: inline-block;
+            border:1px solid #E8E8E8;
+            border-radius: 5px;
+            box-sizing: border-box;
+            background-color: #FAFDFF;;
+      
+        }
+        input[class=male]{
+            text-align:center;
+        }
+        input[class=female]{
+            text-align:center;
+        }
+        input[class=checkbox]{
+        font-size:15px;
+        font-weight: bolder;
+        }
+        
+        a{
+            text-decoration: orangered;
+            color:#FF3838;
+            text-shadow: 2px 4px 5px 5px;
+           
+        }
+        label{
+        
+            position: absolute;
+            width: 244.8px;
+            height: 21px;
+            margin-top: 10px;
+            font-family:sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 21px;
+            color: #000000;
+        }
+        body {
+            position: relative;
+            background-size: 1440px 1018px;
+            background: #FFFFFF;
+        }
+        button{
+	        height: 60px;
+	        width: 60px;
+	        border-radius: 45%;
+            border:none;
+            margin-bottom:30px;
+            box-shadow: 0px 10px 30px #FFB7D5;
+        }
+
+        button img{
+	        height: 20px;
+	        width: 20px;
+            text-align: center;
+    
+        }
+       span{
+        margin-left: 10px;
+        padding-bottom: 50px;
+       }
+    </style>
+    <body>
+        <div class="container">
+        <h1>Sign Up</h1>
+        <label >create profile for</label><br><br>
+        <select placeholder="son" style="color:grey">
+            <option value="son">son</option>
+            <option value="myself">myself</option>
+            <option value="brother">brother</option>
+            <option value="friend">friend</option>
+            <option value="relatives">relatives</option>
+            <option value="sister">sister</option>
+        </select> <br><br>
+        <label>Mobile number</label><br><br>
+            <input type="text" placeholder="1234567890" siz="20"><br><br>
+        <label>Your email</label><br><br>
+            <input type="text" placeholder="loremipsum@gmail.com" size="20"><br><br>
+        <label>Gender</label><br><br>
+            <input type="text" class="male" placeholder="Male" style="width:40%">
+            <input type="text" class="female" placeholder="Female" style="width:40%"><br><br>
+           <p style="font-size:15px;font-weight:700;font-family:'Poppins';"><input type="checkbox">I've read and agree with terms of service and our privacy policy</p></input><br><br><br>
+        <button onclick="window.location.href='http://nextpage'" style="background: #FFC0CB;">
+            <img src="C:\Users\CHOURIGARI NAVEEN\Downloads\Vector (1).png">
+        </button><br><br>
+        <p style="font-size:15px;font-weight:600;font-family:'Poppins';">Already have an account ?<span>
+            <a href="www.SignUp page.com"onclick="window.location.href='http://.nextpage'">sign in</span></a></p>
+        </div>
+    </form>

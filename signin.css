@@ -1,0 +1,107 @@
+h2{
+    position: absolute;
+    width: 170px;
+    height: 72px;
+    margin-top: 50px;
+    margin-left:650px;
+    font-family:sans-serif;
+    font-style:monospace;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 72px;
+    color: #000000;
+
+}
+label{
+    position: absolute;
+    font-family: 'Poppins';
+    font-style:monospace;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    width: 244.8px;
+    height: 21px;   
+    
+}
+.text{
+    font-family:'Poppins';
+    font-size: 30px;
+    transform: translate(55px);
+    
+
+}
+
+
+
+.container{
+    float:left;
+    position: absolute;
+   margin-left: 650px;
+   margin-top: 200px;
+
+
+}
+a{
+    font-family: 'Poppins';
+    font-style:normal;
+    letter-spacing: 0.03em;
+    position: absolute;
+    font-size: 17px;
+    color: #FF3838;
+    text-decoration: none;
+    font-weight:400;
+    line-height: 24px;
+}
+body {
+    position: relative;
+    background:1200px 800px;
+    background: #FFFFFF;
+
+    ;
+    }
+    input[type=number] {
+        width: 450px;
+        height:40px;
+        display: inline-block;
+        border: 1px solid rgb(253, 231, 231);
+        border-radius: 4px;
+        box-sizing: border-box;
+        background: #FAFDFF;
+    }
+    button{
+        height: 60px;
+        width: 60px;
+        border-radius: 45%;
+        border:none;
+        margin-bottom:30px;
+        box-shadow: 0px 10px 30px #FFB7D5;
+    }
+    
+    button img{
+        height: 20px;
+        width: 20px;
+        text-align: center;
+        color: #000000;
+        
+        
+    }
+    p{
+        position: absolute;
+        width: 288px;
+        height: 24px;
+        font-family: 'Poppins';
+        font-style: monospace;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.03em;
+        color: #000000;
+        padding-bottom: 50px;
+    }
+    span{
+        margin-left:10px;
+        font-weight: 400;
+        font-size: 17px;
+        color:#FF3838;
+    }

@@ -1,0 +1,60 @@
+
+h1{
+    margin-right: 5px;
+    margin-left: 200px;
+    position: absolute;
+    width: 300px;
+    height: 30px;
+    font-family:sans-serif;
+    font-style:normal;
+    font-weight:750;
+    font-size: 30px;
+    line-height: 72px;
+    color: #000000;
+}
+
+form{
+    position: absolute;
+    width: 244.8px;
+    height: 21px;
+    margin-top: 70px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+
+    
+}
+button{
+	height: 60px;
+	width: 60px;
+	border-radius: 45%;
+    border:none;
+    margin-bottom:30px;
+    box-shadow: 0px 10px 30px #FFB7D5;
+    margin-top:650px;
+}
+
+button img{
+	height: 20px;
+	width: 20px;
+    text-align: center;
+    
+}
+
+.details{
+	position: absolute;
+	left: 200px;
+	top: 40px;
+}
+input[type=text],input[type=tel],input[type=date] {
+    width: 400px;
+    height:30px;
+    display: inline-block;
+    border: 1px solid rgb(253, 231, 231);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #FAFDFF;
+}
